@@ -1,0 +1,33 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Test and build artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
+*.egg-info/
+
+# Local library database, SQLite sidecars and backups
+books.db
+books.db-journal
+books.db-wal
+books.db-shm
+books.db.bak*
+backups/
+
+# Local settings and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+.idea/
+*.log
